@@ -1,0 +1,13 @@
+push_swap
+*.out
+*.o
+*.a
+*.debug
+conv
+push_swap.sim
+push_swap_tester/
+PublicTester/
+checker_Mac
+ps_printfuncs.c
+pushswap_sim/
+checker
