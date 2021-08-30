@@ -6,7 +6,7 @@
 /*   By: gsiddiqu <gsiddiqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/08 01:48:50 by gohar             #+#    #+#             */
-/*   Updated: 2021/08/30 12:19:03 by gsiddiqu         ###   ########.fr       */
+/*   Updated: 2021/08/30 12:21:47 by gsiddiqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ static int	ft_ispseudosorted(t_stack *stk)
 		return (1);
 	return (0);
 }
-#include <stdio.h>
+
 int	main(int argc, char **argv)
 {
 	t_data	ps;
