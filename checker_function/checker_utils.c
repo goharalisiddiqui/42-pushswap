@@ -6,7 +6,7 @@
 /*   By: gsiddiqu <gsiddiqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/12 20:09:23 by gsiddiqu          #+#    #+#             */
-/*   Updated: 2021/08/25 16:41:12 by gsiddiqu         ###   ########.fr       */
+/*   Updated: 2021/08/30 12:18:07 by gsiddiqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,6 +120,8 @@ void	ft_readsol(t_data *ps)
 		flag = get_next_line(STDIN_FILENO, &str);
 		if (*str != '\0')
 			ft_lstadd_back(&lst, ft_lstnew(str));
+		else
+			free(str);
 	}
 	ps->sol = lst;
 }
